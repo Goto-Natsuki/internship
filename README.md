@@ -1,4 +1,4 @@
-# ツール・ライブラリの名前
+# スクリプトの名前
 
 1.   primary_number1.py
 1.   primary_number2.py
