@@ -20,7 +20,7 @@
 
 ## primary_number2.py
 ### 説明
-このスクリプトは、エラトステネスの篩を利用した素因数分解です。関数として「search2」を定義しております。divideリストで2から$\sqrt{num}$までの自然数のリストを用意し、divideの最小値であるdivide[0]で割れたらprimary_listリストにそれを追加し、num変数にnumとdivide[0]を割り算した結果を代入します。divide_copyリストにはdivideから要素を1つずつ取り出し、divideの要素の訳数を削除して、divideにdivide_copy[:]で深いコピーを行います。それでもしdivideの要素数が0、あるいはnumが1になったら終了します。
+このスクリプトは、エラトステネスの篩を利用した素因数分解です。関数として「search2」を定義しております。divideリストで2から√numまでの自然数のリストを用意し、divideの最小値であるdivide[0]で割れたらprimary_listリストにそれを追加し、num変数にnumとdivide[0]を割り算した結果を代入します。divide_copyリストにはdivideから要素を1つずつ取り出し、divideの要素の訳数を削除して、divideにdivide_copy[:]で深いコピーを行います。それでもしdivideの要素数が0、あるいはnumが1になったら終了します。
 
 ### 画像
 ![primary_numer2](https://user-images.githubusercontent.com/85320766/120755616-29d45d80-c549-11eb-9dbd-57b38b606537.png)
